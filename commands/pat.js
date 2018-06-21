@@ -12,7 +12,7 @@ exports.run = function(client, message, args) {
     return message.channel.send("Feel the love! Mention someone~");
   }
   if(message.mentions.users.first().id === message.author.id) {
-    return message.channel.send("*pats you* Don't pat yourself!")
+    return message.channel.send("Don't pat yourself! *pats you*")
   }
   const pat = new Discord.RichEmbed()
     .setColor([255, 92, 92])
