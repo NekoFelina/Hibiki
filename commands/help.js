@@ -5,7 +5,7 @@ exports.run = function(client, message, args) {
     .setDescription("__This will be updated in the future!__")
     .setColor([255, 92, 92])
     .addField("Audio","Play | Pause | Resume | Join | Add | Volume | Queue | Skip | Time")
-    .addField("Fun","Hug | Ratewaifu | Ship")
+    .addField("Fun","Hug | Ratewaifu | Ship | Pat")
     .addField("Util","Help | Ping | Stats (WIP) | Support | Userinfo")
     .addField("Moderation","Purge");
 
