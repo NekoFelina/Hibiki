@@ -100,3 +100,4 @@ exports.run = function(client, message, args) {
     message.channel.sendEmbed(headpat11);
   if (roll == 11)
     message.channel.sendEmbed(headpat12);
+});
