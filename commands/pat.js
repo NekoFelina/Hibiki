@@ -12,148 +12,91 @@ exports.run = function(client, message, args) {
     return message.channel.send("Feel the love! Mention someone~");
   }
   if(message.mentions.users.first().id === message.author.id) {
-    return message.channel.send("Don't pat yourself! *pats you*")
+    return message.channel.send("Don't pat yourself! *headpats you*")
   }
-  const pat = new Discord.RichEmbed()
+  const headpat = new Discord.RichEmbed()
     .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://media.tenor.co/images/efdd8f53689b1bb3437054d608156e95/tenor.gif");
+    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a headpat. :heart:`)
+    .setImage("http://i.imgur.com/gHg3VG0.gif");
 
-  const pat2 = new Discord.RichEmbed()
+  const headpat2 = new Discord.RichEmbed()
     .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://68.media.tumblr.com/21f89b12419bda49ce8ee33d50f01f85/tumblr_o5u9l1rBqg1ttmhcxo1_500.gif");
+    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a headpat. :heart:`)
+    .setImage("https://78.media.tumblr.com/71d93048022df065a1d2af96ab71afa3/tumblr_olykrec0DB1qbvovho1_500.gif");
 
-  const pat3 = new Discord.RichEmbed()
+  const headpat3 = new Discord.RichEmbed()
     .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://media.tenor.co/images/e07a54a316ea6581329a7ccba23aea2f/tenor.gif");
+    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a headpat. :heart:`)
+    .setImage("https://media.giphy.com/media/12hvLuZ7uzvCvK/giphy.gif");
 
-  const pat4 = new Discord.RichEmbed()
+  const headpat4 = new Discord.RichEmbed()
     .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://m.popkey.co/32edb3/zE7XE.gif");
+    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a headpat. :heart:`)
+    .setImage("https://pa1.narvii.com/6401/2e4fc400d0229c990e1c47cd770d2de94ab4ad00_hq.gif");
 
-  const pat5 = new Discord.RichEmbed()
+  const headpat5 = new Discord.RichEmbed()
     .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333614629987155969/98b250b6a7d81dec8d153071fcf22820.gif");
+    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a headpat. :heart:`)
+    .setImage("http://i.imgur.com/UMVNZrd.gif");
 
-  const pat6 = new Discord.RichEmbed()
+  const headpat6 = new Discord.RichEmbed()
     .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333614588140716033/2b54a605f183adbfc6898e6820eb62b4.gif");
+    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a headpat. :heart:`)
+    .setImage("http://i.imgur.com/JfRGrgw.gif");
 
-  const pat7 = new Discord.RichEmbed()
+  const headpat7 = new Discord.RichEmbed()
     .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333614526479990784/8572a1d1ebaa45fae290e6760b59caac.gif");
+    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a headpat. :heart:`)
+    .setImage("https://i.gifer.com/OVXY.gif");
 
-  const pat8 = new Discord.RichEmbed()
+  const headpat8 = new Discord.RichEmbed()
     .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333614540732235776/37cbdb87b2aafd651fed5d9764b9967348c5ccd5_hq.gif");
+    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a headpat. :heart:`)
+    .setImage("http://i.imgur.com/sLwoifL.gif");
 
-  const pat9 = new Discord.RichEmbed()
+  const headpat9 = new Discord.RichEmbed()
     .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333614427091763200/8ruodNJ.gif");
+    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a headpat. :heart:`)
+    .setImage("https://media.tenor.com/images/3768a9bfac80ec14257538c3b6bb9ad3/tenor.gif");
 
-  const pat10 = new Discord.RichEmbed()
+  const headpat10 = new Discord.RichEmbed()
     .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333614322901188608/7febe1ebeca953a4fa29b0180b858181.gif");
+    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a headpat. :heart:`)
+    .setImage("https://i.imgur.com/fp9XJZO.gif");
 
-  const pat11 = new Discord.RichEmbed()
+  const headpat11 = new Discord.RichEmbed()
     .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333614212041670657/tumblr_msexao8iX51re6rdoo1_500.gif");
+    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a headpat. :heart:`)
+    .setImage("https://media1.tenor.com/images/2b2f9c5d046ea2cdaca41dfdc4356eea/tenor.gif");
 
-  const pat12 = new Discord.RichEmbed()
+  const headpat12 = new Discord.RichEmbed()
     .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333615124872953886/anime-couple-gif-pat-Favim.com-3637687.gif");
+    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a headpat. :heart:`)
+    .setImage("https://i.imgur.com/LUypjw3.gif");
 
-  const pat13 = new Discord.RichEmbed()
-    .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333615282486771714/giphy_3.gif");
-
-  const pat14 = new Discord.RichEmbed()
-    .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333615309040648193/giphy_4.gif");
-
-  const pat15 = new Discord.RichEmbed()
-    .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333615331669180417/fewfregr.gif");
-
-  const pat16 = new Discord.RichEmbed()
-    .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333615351273226240/giphy.gif");
-
-  const pat17 = new Discord.RichEmbed()
-    .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333615526846660609/raw.gif");
-
-  const pat18 = new Discord.RichEmbed()
-    .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333616135519993856/tumblr_n8w7phs27N1tuk680o1_500.gif");
-
-  const pat19 = new Discord.RichEmbed()
-    .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333616085121368064/tumblr_o0aksw1TQ31us9tevo1_500.gif");
-
-  const pat20 = new Discord.RichEmbed()
-    .setColor([255, 92, 92])
-    .setDescription(`**${message.member.user.username}** gave **${message.mentions.users.first().username}** a pat. :heart:`)
-    .setImage("https://cdn.discordapp.com/attachments/333478519793254401/333616076032049152/tumblr_np812aVnbN1uprh6zo1_500.gif");
-
-  var roll = Math.floor(Math.random()*20);
+  var roll = Math.floor(Math.random()*12);
 
   if (roll == 0)
-    message.channel.sendEmbed(pat);
+    message.channel.sendEmbed(headpat);
   if (roll == 1)
-    message.channel.sendEmbed(pat2);
+    message.channel.sendEmbed(headpat2);
   if (roll == 2)
-    message.channel.sendEmbed(pat3);
+    message.channel.sendEmbed(headpat3);
   if (roll == 3)
-    message.channel.sendEmbed(pat4);
+    message.channel.sendEmbed(headpat4);
   if (roll == 4)
-    message.channel.sendEmbed(pat5);
+    message.channel.sendEmbed(headpat5);
   if (roll == 5)
-    message.channel.sendEmbed(pat6);
+    message.channel.sendEmbed(headpat6);
   if (roll == 6)
-    message.channel.sendEmbed(pat7);
+    message.channel.sendEmbed(headpat7);
   if (roll == 7)
-    message.channel.sendEmbed(pat8);
+    message.channel.sendEmbed(headpat8);
   if (roll == 8)
-    message.channel.sendEmbed(pat9);
+    message.channel.sendEmbed(headpat9);
   if (roll == 9)
-    message.channel.sendEmbed(pat10);
+    message.channel.sendEmbed(headpat10);
   if (roll == 10)
-    message.channel.sendEmbed(pat11);
+    message.channel.sendEmbed(headpat11);
   if (roll == 11)
-    message.channel.sendEmbed(pat12);
-  if (roll == 12)
-    message.channel.sendEmbed(pat13);
-  if (roll == 13)
-    message.channel.sendEmbed(pat14);
-  if (roll == 14)
-    message.channel.sendEmbed(pat15);
-  if (roll == 15)
-    message.channel.sendEmbed(pat16);
-  if (roll == 16)
-    message.channel.sendEmbed(pat17);
-  if (roll == 17)
-    message.channel.sendEmbed(pat18);
-  if (roll == 18)
-    message.channel.sendEmbed(pat19);
-  if (roll == 19)
-    message.channel.sendEmbed(pat20);
-}
+    message.channel.sendEmbed(headpat12);
